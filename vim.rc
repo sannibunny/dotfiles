@@ -1,0 +1,24 @@
+filetype plugin indent off
+syntax on
+colo zellner 
+:set textwidth=80
+:set mouse=a
+:set ruler
+:set showcmd
+:set colorcolumn=80
+highlight ColorColumn ctermbg=12
+:set background=dark
+:set relativenumber
+:set number
+
+let g:airline_theme='bubblegum'
+
+" filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+so ~/.vim/plugins.vim
